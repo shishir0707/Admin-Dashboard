@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px) {
+    .AppGlass{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+    .menuItem>span{
+        display: none;
+    }
+    .logo{
+        display: none !important;
+    }
+    .Maindash{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+    .Cards{
+        flex-direction: column;
+
+
+        .parentContainer{
+            height: 9rem;
+        }
+    }
+
+    .ExpandedCard{
+        top: 2rem;
+        height: 70vh;
+        left: 6rem;
+    }
+    .RightSide{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+    .table{
+        width: 170%;
+        margin-top: 4rem;
+
+    }
+  }
+  
+//   @media screen and (max-width: 768px) {
+//     .AppGlass{
+//       grid-template-columns: 1fr;
+//     } 
+//   }
